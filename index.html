@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nana&#x27;s Cookbook</title>
+<title>Made With Nana</title>
 <style>
 /* === Base & Typography === */
 *, *::before, *::after { box-sizing: border-box; }
@@ -61,8 +61,8 @@ a:hover {
 
 /* === Header === */
 .cookbook-header {
-  background: linear-gradient(135deg, var(--deep-purple) 0%, var(--plum) 40%, var(--gold) 100%);
-  color: var(--cream);
+  background-color: var(--yellow);
+  color: var(--deep-purple);
   text-align: center;
   padding: 3rem 1.5rem 2.5rem;
   position: relative;
@@ -73,23 +73,23 @@ a:hover {
   content: '';
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23F5C518' fill-opacity='0.07'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='%23D4A017' fill-opacity='0.25'%3E%3Ccircle cx='40' cy='40' r='3'/%3E%3Ccircle cx='40' cy='32' r='2.2'/%3E%3Ccircle cx='40' cy='48' r='2.2'/%3E%3Ccircle cx='32' cy='40' r='2.2'/%3E%3Ccircle cx='48' cy='40' r='2.2'/%3E%3Ccircle cx='35' cy='35' r='1.6'/%3E%3Ccircle cx='45' cy='35' r='1.6'/%3E%3Ccircle cx='35' cy='45' r='1.6'/%3E%3Ccircle cx='45' cy='45' r='1.6'/%3E%3Ccircle cx='40' cy='28' r='1.2'/%3E%3Ccircle cx='40' cy='52' r='1.2'/%3E%3Ccircle cx='28' cy='40' r='1.2'/%3E%3Ccircle cx='52' cy='40' r='1.2'/%3E%3Ccircle cx='0' cy='0' r='3'/%3E%3Ccircle cx='0' cy='72' r='2.2'/%3E%3Ccircle cx='8' cy='0' r='2.2'/%3E%3Ccircle cx='0' cy='8' r='2.2'/%3E%3Ccircle cx='80' cy='0' r='3'/%3E%3Ccircle cx='80' cy='8' r='2.2'/%3E%3Ccircle cx='72' cy='0' r='2.2'/%3E%3Ccircle cx='0' cy='80' r='3'/%3E%3Ccircle cx='8' cy='80' r='2.2'/%3E%3Ccircle cx='80' cy='80' r='3'/%3E%3Ccircle cx='72' cy='80' r='2.2'/%3E%3Ccircle cx='80' cy='72' r='2.2'/%3E%3C/g%3E%3C/svg%3E");
   opacity: 1;
 }
 
 .cookbook-header h1 {
   font-size: 3rem;
-  color: var(--cream);
+  color: var(--deep-purple);
   margin: 0 0 0.5rem;
   position: relative;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  text-shadow: 1px 1px 2px rgba(245,197,24,0.4);
   letter-spacing: 1px;
 }
 
 .cookbook-header .subtitle {
   font-style: italic;
   font-size: 1.1rem;
-  opacity: 0.9;
+  color: var(--brown);
   max-width: 700px;
   margin: 0 auto;
   position: relative;
@@ -98,7 +98,7 @@ a:hover {
 .cookbook-header .recipe-count {
   margin-top: 1rem;
   font-size: 0.95rem;
-  opacity: 0.8;
+  color: var(--plum);
   position: relative;
 }
 
@@ -765,7 +765,7 @@ a:hover {
 <!-- Sidebar Navigation -->
 <nav class="sidebar" id="sidebar">
   <div class="sidebar-header">
-    <h2>Recipe Index</h2>
+    <h2>Made With Nana</h2>
   </div>
   <div class="sidebar-search">
     <div class="sidebar-search-wrap">
@@ -796,8 +796,8 @@ a:hover {
 </nav>
 
 <header class="cookbook-header">
-  <h1>Nana&#x27;s Cookbook</h1>
-  <p class="subtitle">A family recipe collection lovingly digitized from handwritten recipe cards, clipped cookbook pages, and treasured notes passed down through generations.</p>
+  <h1>Made With Nana</h1>
+  <p class="subtitle">A family recipe collection lovingly preserved from Nana's handwritten recipe cards, cookbook clippings, and treasured kitchen notes.</p>
   <p class="recipe-count">319 recipes across 16 categories</p>
 </header>
 
@@ -810,8 +810,8 @@ a:hover {
 <div class="container">
 
   <div class="about-box">
-    <p class="intro-tagline"><em>A family recipe collection lovingly digitized from handwritten recipe cards, clipped cookbook pages, and treasured notes passed down through generations.</em></p>
-<blockquote><strong>About this collection:</strong> These recipes were transcribed from photographs of two boxes of handwritten recipe cards belonging to Nana (Janet Spilker) and her family. Box 1 spans images IMG_9104 through IMG_9479, and Box 2 spans IMG_9480 through IMG_9558. Text marked with <strong><span class="uncertain">[uncertain]</span></strong> indicates words that were difficult to read due to handwriting, stains, or wear on the original cards. Some recipes reference the back of a card (&quot;over&quot;) that may not have been fully captured. Where duplicate recipe cards existed, the most complete version has been kept with alternate image numbers noted.</blockquote>
+    <p class="intro-tagline"><em>A family recipe collection lovingly preserved from Nana's handwritten recipe cards, cookbook clippings, and treasured kitchen notes.</em></p>
+<blockquote><strong>About Made With Nana:</strong> These recipes were lovingly transcribed from two boxes of Nana's (Janet Spilker) handwritten recipe cards, cookbook clippings, and kitchen notes collected over a lifetime. Each recipe includes a photo of the original card so you can see Nana's handwriting. Text marked with <strong><span class="uncertain">[uncertain]</span></strong> indicates words that were difficult to read due to handwriting, stains, or wear on the original cards.</blockquote>
   </div>
 
   <div class="toc-container">
